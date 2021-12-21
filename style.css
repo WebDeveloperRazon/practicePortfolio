@@ -9,6 +9,7 @@ body{
 }
 .top-banner{
     background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 .name-highlight{
     color : orange;
@@ -24,7 +25,7 @@ body{
 }
 section{
     height: 500px ;
-    background-repeat: no-repeat;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -35,4 +36,22 @@ section{
     color: white;
     font-weight: bold;
 
+}
+p{
+    color: dimgray ;
+    text-align: justify;
+    padding: 5px ;
+}
+.dream-area{
+    background-image : url(images/dream-bg.png);
+    background-repeat: no-repeat ;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    padding: 5px ;
+    border-radius:10px ;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat ;
+    background-position: left;
 }
